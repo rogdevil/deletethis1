@@ -1,5 +1,5 @@
 # Production Dockerfile for React.js
-FROM node:14 as build
+FROM node:18 as build
 WORKDIR /app
 COPY . /app
 RUN npm install
